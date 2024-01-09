@@ -18,4 +18,13 @@ export default defineNuxtConfig({
       secretApi: process.env.NUXT_SECRET_API,
     },
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "~/assets/scss/_colors.scss" as *;',
+        },
+      },
+    },
+  },
 })
