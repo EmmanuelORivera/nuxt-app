@@ -4,4 +4,9 @@
     <NuxtPage />
   </div>
 </template>
-<script setup lang="ts"></script>
+<style>
+@import url('~/assets/css/first.css');
+</style>
+<script setup lang="ts">
+import '~/assets/css/second.css'
+</script>
