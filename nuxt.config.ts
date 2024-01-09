@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', 'bootstrap/dist/css/bootstrap.css'],
   devtools: { enabled: true },
   runtimeConfig: {
     apiSecret: '123',
